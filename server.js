@@ -53,4 +53,10 @@ app.post('/employees', (req, res) => {
     .catch(error => res.status(400).json({ error }));
 });
 
+app.delete('/employees', (req, res) => {
+  Employee.deleteOne({ id: req.body.id })
+    .then(() => res.status(200).json({ message: 'Employee deleted successfully' }))
+    .catch(error => res.status(400).json({ error }));
+})
+
 app.listen(port, () => console.log('Server started at http://localhost:' + port));
