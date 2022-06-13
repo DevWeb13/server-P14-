@@ -54,7 +54,7 @@ app.post('/employees', (req, res) => {
 });
 
 app.delete('/employees', (req, res) => {
-  Employee.deleteOne({ id: req.body.id })
+  Employee.deleteOne({ id: req.body.id.toString() })
     .then(() => res.status(200).json({ message: 'Employee deleted successfully' }))
     .catch(error => res.status(400).json({ error }));
 })
