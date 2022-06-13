@@ -37,7 +37,7 @@ app.use(cors({
 /* A GET request to the /employees route. It is using the Employee model to find all the employees in
 the database. If it is successful, it will return a status of 200 and the employees. If it is not
 successful, it will return a status of 400 and the error. */
-app.get('/employees', (req, res) => {
+app.get('/employees', (_req, res) => {
   Employee.find()
     .then(employees => res.status(200).json(employees))
     .catch(error => res.status(400).json({ error }));
