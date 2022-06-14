@@ -4,9 +4,14 @@ const mongoose = require('mongoose');
 
 const Employee = require('./models/Employee');
 
+require('dotenv').config();
+
+let cleAPI = process.env.MONGODB_URI;
+
 
 /* Connecting to the MongoDB database. */
-mongoose.connect('mongodb+srv://DevWeb13:NhLvSJm8bVsb2gX@cluster0.nqxxv.mongodb.net/?retryWrites=true&w=majority',
+// @ts-ignore
+mongoose.connect(cleAPI, 
   {
     // @ts-ignore
     useNewUrlParser: true,
