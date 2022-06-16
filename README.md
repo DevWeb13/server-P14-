@@ -54,8 +54,8 @@ The default URL used by the API is <http://localhost:5000>.
 
 * Log in or create a mongoDb Atlas account:<https://www.mongodb.com/fr-fr>
 * Create a free database cluster.
-* Clone a server API: <https://github.com/DevWeb13/server-P14->
-* You have to clone the project locally with either/or :
+* Clone this server API.
+* You have to clone the project locally with either/or:
 
 ```bash
 # HTTPS
