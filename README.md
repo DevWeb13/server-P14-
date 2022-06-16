@@ -1,16 +1,21 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="[https://i.imgur.com/6wj0hh6.jpg](https://github.com/DevWeb13/server-P14-/blob/master/img/logo-readme.png)" alt="Project logo"></a>
+ <img width=200px height=200px src="https://github.com/DevWeb13/server-P14-/blob/master/img/logo-readme.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">server</h3>
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+# Server-P14-
+
+> Server express for app: https://github.com/DevWeb13/giulianoloic_14_28052022
+
+## Project Realized By Giuliano Loic
+
+## Made With
+
+![JavaScript](https://img.shields.io/badge/Language-JS-yellow) ![Express](https://img.shields.io/badge/Framework-Express-blue) ![BDD](https://img.shields.io/badge/BDD-MongoDb-ff69b4) ![Vercel](https://img.shields.io/badge/Deploy-Vercel-black) ![cors](https://img.shields.io/badge/Library-cors-blueviolet) ![dotenv](https://img.shields.io/badge/Library-dotenv-blueviolet) ![mongoose](https://img.shields.io/badge/Library-mongoose-blueviolet) ![IDE](https://img.shields.io/badge/IDE-VsCode-blue) ![NODE](https://img.shields.io/badge/Node-v16.13.0-ff69b4) 
 
 </div>
 
