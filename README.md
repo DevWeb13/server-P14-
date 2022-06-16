@@ -31,11 +31,17 @@
 *Two repositories are needed to enable the project to run:*
 
 
-## 1. BACK-END API
+## 1. FRONT-END
 
-You can get the API code here: <https://github.com/DevWeb13/server-P14->
+You can get the APP FRONT END code here: <https://github.com/DevWeb13/giulianoloic_14_28052022>
 
 Please refer to the Readme.md documentation provided for installation and use.
+
+
+
+## 2. BACK-END API
+
+The present repository contains this part of the project. Any package manager such as npm or yarn is required.
 
 ### URL/PORT
 
@@ -43,23 +49,19 @@ The default URL used by the API is <http://localhost:5000>.
 
 &nbsp;
 
-## 2. FRONT-END
-
-The present repository contains this part of the project. Any package manager such as npm or yarn is required.
-
 
 
 
 ### Use the application
 
-* Clone and connect a server API: <https://github.com/DevWeb13/server-P14->
+* Clone a server API: <https://github.com/DevWeb13/server-P14->
 * You have to clone the project locally with either/or :
 
 ```bash
 # HTTPS
-git clone https://github.com/DevWeb13/giulianoloic_14_28052022.git
+git clone https://github.com/DevWeb13/server-P14-.git
 # SSH
-git clone git@github.com:DevWeb13/giulianoloic_14_28052022.git
+git clone git@github.com:DevWeb13/server-P14-.git
 ```
 
 * Then access inside your local repository and install dependencies using :
