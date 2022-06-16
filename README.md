@@ -1,11 +1,11 @@
-<p align="center">
+<p>
   <a href="" rel="noopener">
  <img width=200px height=200px src="https://github.com/DevWeb13/server-P14-/blob/master/img/logo-readme.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">server</h3>
+<h3>server</h3>
 
-<div align="center">
+<div>
 
 # Server-P14-
 
@@ -17,103 +17,72 @@
 
 ![JavaScript](https://img.shields.io/badge/Language-JS-yellow) ![Express](https://img.shields.io/badge/Framework-Express-blue) ![BDD](https://img.shields.io/badge/BDD-MongoDb-ff69b4) ![Vercel](https://img.shields.io/badge/Deploy-Vercel-black) ![cors](https://img.shields.io/badge/Library-cors-blueviolet) ![dotenv](https://img.shields.io/badge/Library-dotenv-blueviolet) ![mongoose](https://img.shields.io/badge/Library-mongoose-blueviolet) ![IDE](https://img.shields.io/badge/IDE-VsCode-blue) ![NODE](https://img.shields.io/badge/Node-v16.13.0-ff69b4) 
 
-</div>
+</div> 
 
----
+|                                                                                                              summary                                                                                                               |                                                                                                           score                                                                                                            |                                                                                                      to do                                                                                                      |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|              [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=DevWeb13_giulianoloic_14_28052022&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=DevWeb13_giulianoloic_14_28052022)              |  [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=DevWeb13_giulianoloic_14_28052022&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=DevWeb13_giulianoloic_14_28052022)  |  [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=DevWeb13_giulianoloic_14_28052022&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=DevWeb13_giulianoloic_14_28052022)   |
+| [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=DevWeb13_giulianoloic_14_28052022&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=DevWeb13_giulianoloic_14_28052022) | [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=DevWeb13_giulianoloic_14_28052022&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=DevWeb13_giulianoloic_14_28052022) | [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=DevWeb13_giulianoloic_14_28052022&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=DevWeb13_giulianoloic_14_28052022) |
+|                   [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=DevWeb13_giulianoloic_14_28052022&metric=bugs)](https://sonarcloud.io/summary/new_code?id=DevWeb13_giulianoloic_14_28052022)                   |    [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=DevWeb13_giulianoloic_14_28052022&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=DevWeb13_giulianoloic_14_28052022)    |                                                                                                                                                                                                                 |
+|        [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=DevWeb13_giulianoloic_14_28052022&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=DevWeb13_giulianoloic_14_28052022)        |                                                                                                                                                                                                                            |
 
-<p align="center"> Few lines describing your project.
-    <br> 
-</p>
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=DevWeb13_giulianoloic_14_28052022)](https://sonarcloud.io/summary/new_code?id=DevWeb13_giulianoloic_14_28052022)
 
-## 📝 Table of Contents
+*Two repositories are needed to enable the project to run:*
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
 
-## 🧐 About <a name = "about"></a>
+## 1. BACK-END API
 
-Write about 1-2 paragraphs describing the purpose of your project.
+You can get the API code here: <https://github.com/DevWeb13/server-P14->
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+Please refer to the Readme.md documentation provided for installation and use.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+### URL/PORT
 
-### Prerequisites
+The default URL used by the API is <http://localhost:5000>.
 
-What things you need to install the software and how to install them.
+&nbsp;
 
-```
-Give examples
-```
+## 2. FRONT-END
 
-### Installing
+The present repository contains this part of the project. Any package manager such as npm or yarn is required.
 
-A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
 
-```
-Give the example
-```
 
-And repeat
+### Use the application
 
-```
-until finished
+* Clone and connect a server API: <https://github.com/DevWeb13/server-P14->
+* You have to clone the project locally with either/or :
+
+```bash
+# HTTPS
+git clone https://github.com/DevWeb13/giulianoloic_14_28052022.git
+# SSH
+git clone git@github.com:DevWeb13/giulianoloic_14_28052022.git
 ```
 
-End with an example of getting some data out of the system or using it for a little demo.
+* Then access inside your local repository and install dependencies using :
 
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+```bash
+npm install
 ```
 
-### And coding style tests
+* Launch the application with :
 
-Explain what these tests test and why
+```bash
+ npm start
+ ```
 
-```
-Give an example
-```
 
-## 🎈 Usage <a name="usage"></a>
+### URL/PORT
 
-Add notes about how to use the system.
+The default URL used by the application is <http://localhost:3000>.
 
-## 🚀 Deployment <a name = "deployment"></a>
+&nbsp;
 
-Add additional notes about how to deploy this on a live system.
 
-## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
 
-## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
