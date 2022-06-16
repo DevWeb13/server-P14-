@@ -1,5 +1,4 @@
 <p>
-  <a href="" rel="noopener">
  <img width=200px height=200px src="https://github.com/DevWeb13/server-P14-/blob/master/img/logo-readme.png" alt="Project logo"></a>
 </p>
 
@@ -42,6 +41,7 @@ Please refer to the Readme.md documentation provided for installation and use.
 ## 2. BACK-END API
 
 The present repository contains this part of the project. Any package manager such as npm or yarn is required.
+<h2>! You must have a mongoDB account and create a database for the server to be functional !</h2>
 
 ### URL/PORT
 
@@ -50,10 +50,10 @@ The default URL used by the API is <http://localhost:5000>.
 &nbsp;
 
 
-
-
 ### Use the application
 
+* Log in or create a mongoDb Atlas account:<https://www.mongodb.com/fr-fr>
+* Create a free database cluster.
 * Clone a server API: <https://github.com/DevWeb13/server-P14->
 * You have to clone the project locally with either/or :
 
@@ -70,16 +70,33 @@ git clone git@github.com:DevWeb13/server-P14-.git
 npm install
 ```
 
+* In server.js file, replace process.env.MONGODB_URI with YOUR mongodb connect.
+
+```js
+// Replace process.env.MONGODB_URI with YOUR mongodb connect !!!!!
+let cleAPI = process.env.MONGODB_URI;
+```
+* MongoDb connect exemple:
+
+```js
+let cleAPI = "mongodb+srv://rambo:<password>@cluster0.l7uwv4b.mongodb.net/?retryWrites=true&w=majority";
+```
+
 * Launch the application with :
 
 ```bash
- npm start
+ npm run dev
  ```
+* A confirmation message display in the console:
 
+```js
+Server started at http://localhost:5000
+Connexion à MongoDB réussie !
+```
 
 ### URL/PORT
 
-The default URL used by the application is <http://localhost:3000>.
+The default routes URI used by the application is <http://localhost:5000/employees>.
 
 &nbsp;
 
