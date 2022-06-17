@@ -1,17 +1,17 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 
 const Employee = require('./models/Employee');
 
-require('dotenv').config();
 
 // Replace process.env.MONGODB_URI with YOUR mongodb url !!!!!
-let cleAPI = process.env.MONGODB_URI;
+const cleAPI = process.env.MONGODB_URI||'';
 
 
 /* Connecting to the MongoDB database. */
-// @ts-ignore
+
 mongoose.connect(cleAPI, 
   {
     // @ts-ignore
@@ -22,7 +22,7 @@ mongoose.connect(cleAPI,
   .catch(() => console.log('Connexion à MongoDB échouée !'));
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = 5000;
 
 
 /* Parsing the body of the request. */
