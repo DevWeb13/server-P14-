@@ -2,7 +2,7 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 
 const Employee = require('./models/Employee');
-const data = require('./MOCK_DATA.js');
+const data = require('./employees.js');
 
 
 // Replace process.env.MONGODB_URI with YOUR mongodb url !!!!!
