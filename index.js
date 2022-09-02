@@ -7,12 +7,12 @@ const Employee = require('./models/Employee');
 
 
 // Replace process.env.MONGODB_URI with YOUR mongodb url !!!!!
-const cleAPI = process.env.MONGODB_URI||'';
+const cleAPI = process.env.MONGODB_URI || '';
 
 
 /* Connecting to the MongoDB database. */
 
-mongoose.connect(cleAPI, 
+mongoose.connect(cleAPI,
   {
     // @ts-ignore
     useNewUrlParser: true,
@@ -38,6 +38,9 @@ app.use(cors({
   methods: ['GET', 'POST', 'DELETE', 'UPDATE', 'PUT', 'PATCH']
 }));
 
+app.get('/', (_req, res) => {
+  res.send("Hello World !!");
+})
 
 /* A GET request to the /employees route. It is using the Employee model to find all the employees in
 the database. If it is successful, it will return a status of 200 and the employees. If it is not
